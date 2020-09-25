@@ -1,0 +1,26 @@
+{
+    "identifier": "land.munson.URLEncoder",
+    "name": "URLEncoder",
+    "organization": "Munson Land",
+    "description": "Adds URL Encoding/Decoding to Nova",
+    "version": "1.0",
+    "license": "MIT",
+    "bugs": "https://github.com/archaica/URLEncoder/issues",
+    
+    "categories": ["formatters"],
+    "main": "main.js",
+    "commands": {
+        "editor": [
+            {
+                "title": "Encode",
+                "command": "url.encode",
+                "when": "editorHasSelection"
+            },
+            {
+                "title": "Decode",
+                "command": "url.decode",
+                "when": "editorHasSelection"
+            }
+        ]
+    }
+}
