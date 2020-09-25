@@ -3,7 +3,7 @@
     "name": "URLEncoder",
     "organization": "Munson Land",
     "description": "Adds URL Encoding/Decoding to Nova",
-    "version": "1.0",
+    "version": "1.0.2",
     "license": "MIT",
     "bugs": "https://github.com/archaica/URLEncoder/issues",
     
